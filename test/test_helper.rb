@@ -1,4 +1,4 @@
-require "#{Rails.root}/lib/noosfero/api/helpers"
+require "../../lib/noosfero/api/helpers"
 
 class ActiveSupport::TestCase
 
