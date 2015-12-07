@@ -1,4 +1,4 @@
-require "../../lib/noosfero/api/helpers"
+require_relative "../../../lib/noosfero/api/helpers"
 
 class ActiveSupport::TestCase
 
