@@ -3,7 +3,7 @@ require_dependency 'environment'
 class Environment
 
   #Captcha settings
-  settings_items :serpro_captcha_plugin, :type => ActiveSupport::HashWithIndifferentAccess, :default => {}
+  settings_items :serpro_captcha_plugin, :type => Hash, :default => {}
 
 #  settings_items :verify_uri, :type => :string, :default => 'http://captcha.servicoscorporativos.serpro.gov.br/captchavalidar/1.0.0/validar'
 #  settings_items :serpro_client_id, :type => :string, :default => 'fdbcdc7a0b754ee7ae9d865fda740f17'
