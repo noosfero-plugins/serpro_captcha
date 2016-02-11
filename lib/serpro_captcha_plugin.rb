@@ -12,7 +12,7 @@ class SerproCaptchaPlugin < Noosfero::Plugin
     [SerproCaptchaPlugin::API ]
   end
 
-  def test_captcha(*args)
+  def verify_captcha(*args)
     remote_ip = args[0]
     params = args[1]
     environment = args[2]
